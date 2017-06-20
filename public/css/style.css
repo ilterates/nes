@@ -1,6 +1,10 @@
 .coming-soon {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 70%;
+}
+.sizlerle {
+  color: #f6546a;
+  text-align: center;
 }
 .col-md-1 {
   border-style: solid;
@@ -11,16 +15,21 @@
   height: 200px;
   width: 200px;
   margin: auto;
-  margin-top: 20%;
+  margin-top: 5%;
   margin-bottom: 0%;
 }
 #moving {
  right: -20px;
  bottom: -20px;
+ color: #f6546a;
 }
 .bottom .left {
   border-top: 0px;
 }
 .top .right {
   border-left: 0px;
+}
+.nes-logo {
+  margin: 5% 0% 50% 39%;
+
 }
