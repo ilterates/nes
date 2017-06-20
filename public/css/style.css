@@ -1,0 +1,26 @@
+.coming-soon {
+  text-align: center;
+  margin-top: 10%;
+}
+.col-md-1 {
+  border-style: solid;
+  height: 100px;
+  width: 100px;
+}
+.centerer {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 0%;
+}
+#moving {
+ right: -20px;
+ bottom: -20px;
+}
+.bottom .left {
+  border-top: 0px;
+}
+.top .right {
+  border-left: 0px;
+}
