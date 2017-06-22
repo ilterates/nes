@@ -6,10 +6,10 @@ window.setInterval( function() {
                 .fadeOut( 500 );
      setTimeout(500);
      hidden = true;
- } else {
-  $("#moving").animate({left: "20px"})
+  } else {
+    $("#moving").animate({left: "20px"})
               .animate({bottom: "-20px"})
               .fadeIn( 500 );
    hidden = false;
- }
+  }
 }, 1000);
