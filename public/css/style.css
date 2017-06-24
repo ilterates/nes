@@ -3,10 +3,18 @@ body {
   text-rendering: auto;
 
 }
-.logo-center {
-  position: fixed;
-  left: 40%;
-  top: 50%;
+.welcome {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 15%;
+  font-family: 'Clicker Script', cursive;
+  font-size: 15em;
+  text-align: center;
+  overflow: hidden;
 }
 .coming-soon {
   position: absolute;
@@ -23,79 +31,9 @@ body {
   top: 50px;
   left: 100px;
 }
-/* BOXES */
-/*.centerer {
-  margin: auto;
-  margin-top: 10%;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: stretch;
-}
-.top-2 {
-  flex: 1 50%;
-  border-style: solid;
-  border-width: 1.3px;
-  height: 75px;
-  width: 75px;
-}
-.top-1 {
-  flex: 1 50%;
-  border-style: solid;
-  border-width: 1.3px;
-  height: 75px;
-  width: 75px;
-  border-right: 0px;
-  border-bottom: 0px;
-}
-.b-left {
-  flex: 2 50%;
-  border-top: 0px;
-  border-style: solid;
-  border-width: 1.3px;
-  height: 75px;
-  width: 75px;
-
-}
-.b-right {
-  flex: 2 50%;
-  border-style: solid;
-  border-width: 1.3px;
-  height: 75px;
-  width: 75px;
-}
-#moving {
-  right: -20px;
-  bottom: -20px;
-  color: #f6546a;
-}*/
-/*END OF BOXES*/
-
-.nes-logo {
-  position: fixed;
-  width: 300px;
-}
-.bottom-content  {
-  /*display: flex;
-  justify-content: center;*/
-}
-.welcome {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  top: 30%;
-  font-family: 'Clicker Script', cursive;
-  font-size: 15em;
-  text-align: center;
-  overflow: hidden;
-}
 @media only screen and (max-width: 980px) {
   .welcome {
-    top: 55%;
+    top: 40%;
   }
   .coming-soon {
     left: 50%;
@@ -112,8 +50,8 @@ body {
 }
 @media only screen and (min-width: 1200px) {
   .welcome {
-    top: 35%;
-    background-color: blue;
+    top: 15%;
+    font-size: 20em;
   }
   .coming-soon {
     top: 70%;
