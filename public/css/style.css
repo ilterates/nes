@@ -34,6 +34,26 @@ body {
   top: 50px;
   left: 100px;
 }
+.nav {
+  position: absolute;
+  top: 10%;
+  left: 100px;
+  display: flex;
+  justify-content: flex-between;
+
+}
+.nav>li>a {
+  color: rgba(236,64,122 ,1);
+  font-size: 3em;
+  font-family: Convergence;
+}
+.nav>li>a:hover {
+  color: rgba(236,64,122 ,1);
+  font-size: 3em;
+  font-family: Convergence;
+  background-color: rgba(255,255,255,0.0);
+  text-shadow: 0 0 2px rgba(236,64,122 ,0.5);
+}
 @media only screen and (min-width: 981px) and (min-width: 1200px) {
   .welcome-text {
     font-size: 20em;
